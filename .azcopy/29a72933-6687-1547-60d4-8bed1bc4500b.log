@@ -1,0 +1,33 @@
+2022/03/25 09:18:22 AzcopyVersion  10.13.0
+2022/03/25 09:18:22 OS-Environment  windows
+2022/03/25 09:18:22 OS-Architecture  amd64
+2022/03/25 09:18:22 Log times are in UTC. Local time is 25 Mar 2022 09:18:22
+2022/03/25 09:18:22 Job-Command copy https://mystorageyadu1.blob.core.windows.net/mycontaineryadu1/PensionsData.csv?se=2022-04-24t09%3A18%3A20z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 C:\Users\toyad\AppData\Local\Temp\16481999000710\PensionsData.csv --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2022/03/25 09:18:22 Number of CPUs: 12
+2022/03/25 09:18:22 Max file buffer RAM 6.000 GB
+2022/03/25 09:18:22 Max concurrent network operations: 192 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/03/25 09:18:22 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/03/25 09:18:22 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/03/25 09:18:22 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/03/25 09:18:22 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/03/25 09:18:22 Max open files when downloading: 2147483048 (auto-computed)
+2022/03/25 09:18:22 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-03-25T09:18:17Z or --include-after=2022-03-25T09:18:17Z
+2022/03/25 09:18:22 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/03/25 09:18:22 JobID=29a72933-6687-1547-60d4-8bed1bc4500b, credential type: Anonymous
+2022/03/25 09:18:22 Final job part has been created
+2022/03/25 09:18:22 scheduling JobID=29a72933-6687-1547-60d4-8bed1bc4500b, Part#=0, Transfer#=0, priority=0
+2022/03/25 09:18:22 Final job part has been scheduled
+2022/03/25 09:18:22 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 21
+2022/03/25 09:18:22 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/03/25 09:18:22 INFO: [P#0-T#0] has worker 20 which is processing TRANSFER 0
+2022/03/25 09:18:24 ==> REQUEST/RESPONSE (Try=1/204.9319ms, OpTime=1.4618862s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://mystorageyadu1.blob.core.windows.net/mycontaineryadu1/PensionsData.csv?se=2022-04-24t09%3A18%3A20z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [d053fa6d-b01e-0063-0129-407d05000000]
+
+2022/03/25 09:18:24 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  1, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  1, GRs: 192
+2022/03/25 09:18:24 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 4.5497
+2022/03/25 09:18:24 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\toyad\AppData\Local\Temp\16481999000710\PensionsData.csv
+2022/03/25 09:18:24 JobID=29a72933-6687-1547-60d4-8bed1bc4500b, Part#=0, TransfersDone=1 of 1
+2022/03/25 09:18:24 all parts of entire Job 29a72933-6687-1547-60d4-8bed1bc4500b successfully completed, cancelled or paused
+2022/03/25 09:18:24 is part of Job which 1 total number of parts done 
+2022/03/25 09:18:26 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 192

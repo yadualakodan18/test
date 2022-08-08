@@ -1,0 +1,55 @@
+{
+	"name": "es67-react-snippets",
+	"displayName": "es67 React/Redux Snippets",
+	"description": "This is a tailor version of es7-react-js-snippets.",
+	"version": "0.1.6",
+	"publisher": "dianyijiang",
+	"icon": "images/logo.png",
+	"keywords": [
+		"snippets",
+		"react",
+		"redux",
+		"javascript"
+	],
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/d-jiang/vscode-reactjs-snippets"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "62672097-42f3-41cc-926b-227e3f277298",
+		"publisherId": "f6e646f5-fe70-4709-b03e-57107b55f9d6",
+		"publisherDisplayName": "dianyijiang",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1656973201976
+	}
+}

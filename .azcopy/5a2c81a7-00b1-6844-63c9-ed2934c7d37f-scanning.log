@@ -1,0 +1,13 @@
+2022/03/25 09:18:31 AzcopyVersion  10.13.0
+2022/03/25 09:18:31 OS-Environment  windows
+2022/03/25 09:18:31 OS-Architecture  amd64
+2022/03/25 09:18:31 Log times are in UTC. Local time is 25 Mar 2022 09:18:31
+2022/03/25 09:18:32 ==> REQUEST/RESPONSE (Try=1/98.0379ms, OpTime=436.168ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://mystorageyadu1.blob.core.windows.net/mycontaineryadu1/PensionsData.csv?se=2022-04-24t09%3A18%3A26z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [00e655cf-d01e-005a-4329-408619000000]
+
+2022/03/25 09:18:32 ==> REQUEST/RESPONSE (Try=1/81.4856ms, OpTime=82.0254ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://mystorageyadu1.blob.core.windows.net/mycontaineryadu1/PensionsData.csv?se=2022-04-24t09%3A18%3A26z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [00e655fa-d01e-005a-6829-408619000000]
+
+2022/03/25 09:18:34 Closing Log
